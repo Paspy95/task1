@@ -8,5 +8,5 @@ public class AverageAge {
         OptionalDouble personsAverage = persons.stream()
                 .mapToInt(Person::getAge).average();
         System.out.println(personsAverage);
-        }
+    }
 }

@@ -1,7 +1,7 @@
 public class Person {
     private String firstName;
     private int age;
-    private  String post;
+    private String post;
     private int salary;
     private String currency;
 
@@ -13,6 +13,7 @@ public class Person {
         this.salary = salary;
         this.currency = currency;
     }
+
     public String getFirstName() {
         return firstName;
     }
@@ -54,7 +55,7 @@ public class Person {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return firstName;
     }
 }
